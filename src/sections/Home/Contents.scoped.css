@@ -26,3 +26,45 @@ section
     border-radius: 10px;
     box-shadow: 10px 10px 10px #969696;
 }
+
+.seeHotels
+{
+    background-color: #50BBB5;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.seeHotels .contentImg
+{
+    padding: 120px 220px;
+    background: #0009 url("../../assets/home/seeHotels.webp");
+    background-blend-mode: darken;
+    background-size: cover;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.seeHotels .contentImg a
+{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.primary
+{
+    margin-bottom: 0.5rem;
+    color: #212529;
+    background-color: white;
+    padding: 15px 30px;
+}
+
+.secondary
+{
+    color: white;
+    border: solid 3px white;
+    padding: 12px 27px;
+}

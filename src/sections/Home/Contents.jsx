@@ -18,6 +18,16 @@ const Contents = () => {
             <div className="testimony"></div>
             <div className="testimony"></div>
         </section>
+        <section className="seeHotels">
+            <div className="contentText">
+                <h2>Take a look at our offers</h2>
+                <h5>Find the room that suits your needs</h5>
+            </div>
+            <div className="contentImg">
+                <a href="#" className="primary">Book for a day</a>
+                <a href="#" className="secondary">Rent long-term</a>
+            </div>
+        </section>
     </>
   )
 }
