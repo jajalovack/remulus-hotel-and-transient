@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import HomeHero from './sections/HomeHero'
+//import { useState } from 'react'
+import Home from './views/Home'
 import Header from './sections/Header'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header/>
-      <HomeHero/>
+      <Header className="navBar"/>
+      <main>
+
+      </main>
+      <Home/>
     </>
   )
 }

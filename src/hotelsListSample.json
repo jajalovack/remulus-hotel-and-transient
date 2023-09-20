@@ -1,0 +1,1277 @@
+{
+  "cityInfo": {
+    "areaId": 387,
+    "cityId": 3000002244,
+    "cityName": "San Francisco",
+    "countryCode": "US",
+    "countryName": "United States",
+    "lat": 37.655757904052734,
+    "lon": -122.41319274902344,
+    "stateCode": "CA",
+    "stateName": "California"
+  },
+  "duration": 1387,
+  "errorCode": 0,
+  "hotels": [
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Hilton",
+      "displayRank": 10000,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "42963",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "55 Cyril Magnin Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94102"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.784926,
+        "longitude": -122.408596,
+        "neighborhoodId": "910051191",
+        "neighborhoodName": "Union Square West",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51191"
+      },
+      "merchandising": {},
+      "name": "Parc 55 San Francisco - A Hilton Hotel",
+      "overallGuestRating": 8,
+      "proximity": 8.928175189590661,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3504,
+        "minCurrencyCode": "USD",
+        "minPrice": "153.00",
+        "minRatePromos": [
+          {
+            "dealType": "DEAL_OF_DAY",
+            "discountPercentage": 0,
+            "isVariableMarkupPromo": false,
+            "showDiscount": false,
+            "title": "Best deal for you",
+            "type": "DISCOUNT"
+          }
+        ],
+        "payWhenYouStayAvailable": true,
+        "pclnId": "F1239AFDAF2610DFB89298F9C8B4A6BCC393FD7CC145AF579A00D712F14ADEF2F514646DAD5EE941B601FC82DF594B15D3BBCB60C35E1F0C7D505EB82B644B0A61683CA08EC8F771772F763C050AD79E852C1191FF93A4281C5B15BACACBEC548A2B1115044DB61A408E232E179DAC6F",
+        "rateIdentifier": "F514646DAD5EE941B601FC82DF594B15D3BBCB60C35E1F0C7D505EB82B644B0A4E4CBC058444BDEA772F763C050AD79E852C1191FF93A428A64EB1400C8D913F146863FB668E561269442A97F76ED14BD96F5C23497F0251",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "36",
+        "savingsClaimStrikePrice": "238.00"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/42/42963/thumbnail-150-square.jpg",
+      "totalReviewCount": 1580
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Intercontinental",
+      "displayRank": 9999,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "SPOOL",
+          "AIRSHUTTL",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "8794805",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "888 Howard Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94103"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.7817,
+        "longitude": -122.404655,
+        "neighborhoodId": "910051188",
+        "neighborhoodName": "South of Market - Moscone Center",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51188"
+      },
+      "merchandising": {},
+      "name": "Intercontinental San Francisco",
+      "overallGuestRating": 8.6,
+      "proximity": 8.714247404170678,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3077,
+        "minCurrencyCode": "USD",
+        "minPrice": "152.10",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "087E8627C18D2724285FC4A165A50BFC2A716A1C346A59C64CA8AF36933ABF26F6FE4ED3DB360514F8D8DA3F991703D7C40C37521F5D1655CC2E6F7D4F49B1EEE0AB5C153D8F50E6A4C30280950B484723762EA84CE754E6823F5F75195A36FC7B24B6F222D1284DC5C17882ED9739D0",
+        "rateIdentifier": "DA3592271C5E6BCB06289114B5EEDAD66B168E556F406AE26BE718E9F4A131855F0344B0C2E9A4DD06021E36F47BDB1E852C1191FF93A428A64EB1400C8D913F146863FB668E56129425DBCDA30EAF34D96F5C23497F0251",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "39",
+        "savingsClaimStrikePrice": "249.00"
+      },
+      "recmdScore": 0,
+      "starRating": 4.5,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/8794/8794805/thumbnail-150-square.jpg",
+      "totalReviewCount": 685
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Intercontinental",
+      "displayRank": 9998,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "40441",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "999 California Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94108"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.791,
+        "longitude": -122.410299,
+        "neighborhoodId": "910051190",
+        "neighborhoodName": "Union Square East - Nob Hill",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51190"
+      },
+      "merchandising": {},
+      "name": "InterContinental Mark Hopkins San Francisco",
+      "overallGuestRating": 8.6,
+      "proximity": 9.345650286823982,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3101,
+        "minCurrencyCode": "USD",
+        "minPrice": "194.65",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "CFA54E2F29430CD38F5E8638CA9584E5C393FD7CC145AF579A00D712F14ADEF2F1952461022E364EF4DA03888378BD2E91C3DF2CBFD8B3DB8403A4F28EFA18CDBAF2D99B0A003AA816E5811B5E5BA3B2852C1191FF93A4281C5B15BACACBEC541E09FE20C8E9662C408E232E179DAC6F",
+        "rateIdentifier": "F1952461022E364EF4DA03888378BD2E91C3DF2CBFD8B3DB8403A4F28EFA18CD1A0C547F7A72EC9616E5811B5E5BA3B2852C1191FF93A428A64EB1400C8D913FD0AE59F1F4FB2E0B61CCA95D8F001B61D96F5C23497F0251"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/40/40441/thumbnail-150-square.jpg",
+      "totalReviewCount": 696
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Hyatt",
+      "displayRank": 9997,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "KITCHEN",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "40419",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "345 Stockton Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94108"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.789,
+        "longitude": -122.406901,
+        "neighborhoodId": "910051190",
+        "neighborhoodName": "Union Square East - Nob Hill",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51190"
+      },
+      "merchandising": {},
+      "name": "Grand Hyatt San Francisco",
+      "overallGuestRating": 8.6,
+      "proximity": 9.21254503147927,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3214,
+        "minCurrencyCode": "USD",
+        "minPrice": "169.00",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "A0F037C070AA7D27D03E53DB8D81D545C393FD7CC145AF579A00D712F14ADEF26B8E6760ECFFEA645A05619AFC775AA9463C700F918728AD90525E6DDA7D764E2B9700738B369E66A8C391932BBFDE1F363FE93C5DDD443C26C398CEF21EA77AF30F847B4F8A80E3",
+        "rateIdentifier": "6B8E6760ECFFEA645A05619AFC775AA9463C700F918728AD90525E6DDA7D764E1F97ABA6AA59A49BA8C391932BBFDE1F363FE93C5DDD443CED039CA7414E84B718429759E2A4C51FD713F2524BBB801425F0009BFF61214B",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "13",
+        "savingsClaimStrikePrice": "195.00"
+      },
+      "recmdScore": 0,
+      "signInDealsAvailable": true,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/40/40419/thumbnail-150-square.jpg",
+      "totalReviewCount": 579
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Hyatt",
+      "displayRank": 9996,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "40418",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "5 Embarcadero Center",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94111"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.795174,
+        "longitude": -122.395857,
+        "neighborhoodId": "910051189",
+        "neighborhoodName": "Financial District - Embarcadero",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51189"
+      },
+      "merchandising": {},
+      "name": "Hyatt Regency San Francisco",
+      "overallGuestRating": 8.6,
+      "proximity": 9.679183432654261,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3911,
+        "minCurrencyCode": "USD",
+        "minPrice": "239.00",
+        "payWhenYouStayAvailable": false,
+        "pclnId": "04B1D9433CADA0174AFB798985A02519C393FD7CC145AF579A00D712F14ADEF24C007C21303A0639F66AB866942951BA37AAE969264B77413853497B14B3633E4D3974543F52C27C885E0343D9736CC0363FE93C5DDD443C26C398CEF21EA77AD9AF30911F06D128",
+        "rateIdentifier": "4C007C21303A0639F66AB866942951BA37AAE969264B77413853497B14B3633E5D4BA7A0019A9D34885E0343D9736CC0363FE93C5DDD443CED039CA7414E84B7D5F0BB14AB3A250FD713F2524BBB801425F0009BFF61214B",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "17",
+        "savingsClaimStrikePrice": "289.00"
+      },
+      "recmdScore": 0,
+      "signInDealsAvailable": true,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/40/40418/thumbnail-150-square.jpg",
+      "totalReviewCount": 914
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Marriott",
+      "displayRank": 9995,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "RESTRNT",
+          "FITSPA",
+          "SPA",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "41215",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "780 Mission Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94103"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.78508,
+        "longitude": -122.405022,
+        "neighborhoodId": "910051188",
+        "neighborhoodName": "South of Market - Moscone Center",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51188"
+      },
+      "merchandising": {},
+      "name": "San Francisco Marriott Marquis",
+      "overallGuestRating": 8.6,
+      "proximity": 8.946432030987202,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3067,
+        "minCurrencyCode": "USD",
+        "minPrice": "155.00",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "6A121C55D3FB4B646FC40F01DA72E1B5C393FD7CC145AF579A00D712F14ADEF2A7C0EAD718EE14A27C941943F7A069EBFA4AAF1770C7D4D088B409FB9A07ED23BD858B9270C3167F55237FFD8D1C38FA852C1191FF93A4281C5B15BACACBEC541643039C2D67C35C408E232E179DAC6F",
+        "rateIdentifier": "A7C0EAD718EE14A27C941943F7A069EBFA4AAF1770C7D4D088B409FB9A07ED23E6DBB84913326D2B55237FFD8D1C38FA852C1191FF93A428A64EB1400C8D913F146863FB668E56121D37A9E706650D8DD96F5C23497F0251",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "38",
+        "savingsClaimStrikePrice": "249.00"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/41/41215/thumbnail-150-square.jpg",
+      "totalReviewCount": 649
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Warwick International Hotels",
+      "displayRank": 9994,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "RESTRNT",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "42693",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "490 Geary Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "CA 94107"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.787001,
+        "longitude": -122.411335,
+        "neighborhoodId": "910051191",
+        "neighborhoodName": "Union Square West",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51191"
+      },
+      "merchandising": {},
+      "name": "Warwick San Francisco",
+      "overallGuestRating": 8.4,
+      "proximity": 9.068576710488777,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 2613,
+        "minCurrencyCode": "USD",
+        "minPrice": "235.00",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "C59FA8095C7D8F8265F50C3A7149D701C393FD7CC145AF574DCF0272FA17A5126E0D8F377DC1C585E4EB58A3E1930FDFB37FAA519928DCBA7A228C7B7BC13100408E232E179DAC6F",
+        "rateIdentifier": "6E0D8F377DC1C585E4EB58A3E1930FDF161302FEBD6A77A8F49F2D5CBB63C96EA0C19CDBF9615763A963FC682DE55B217EA3048807BEE935"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/42/42693/thumbnail-150-square.jpg",
+      "totalReviewCount": 120
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Westin",
+      "displayRank": 9993,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "42689",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "335 Powell Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94102"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.787979,
+        "longitude": -122.408365,
+        "neighborhoodId": "910051190",
+        "neighborhoodName": "Union Square East - Nob Hill",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51190"
+      },
+      "merchandising": {},
+      "name": "The Westin St. Francis San Francisco On Union Square",
+      "overallGuestRating": 8.1,
+      "proximity": 9.139390803061776,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3252,
+        "minCurrencyCode": "USD",
+        "minPrice": "179.00",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "06193D9EAE6F518DE437BA21572CEC11C393FD7CC145AF579A00D712F14ADEF2D99BCDDAC4FCE1110DF0A34AF9CFCEF5200033E65A7B5A80A12BE47B1F5BA7716FA9F5AA03405EB2183041ACF6D6947B852C1191FF93A4281C5B15BACACBEC5441C3B26C12488F90408E232E179DAC6F",
+        "rateIdentifier": "D99BCDDAC4FCE1110DF0A34AF9CFCEF5200033E65A7B5A80A12BE47B1F5BA771845227990EF5CE59183041ACF6D6947B852C1191FF93A428A64EB1400C8D913FE47A6D8E0EB11FBAFC19CCBF18B70BE1D96F5C23497F0251",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "8",
+        "savingsClaimStrikePrice": "195.00"
+      },
+      "recmdScore": 0,
+      "signInDealsAvailable": true,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/42/42689/thumbnail-150-square.jpg",
+      "totalReviewCount": 976
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Independent",
+      "displayRank": 9992,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "FPRKING",
+          "HEALTHSVCS",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "3296705",
+      "location": {
+        "address": {
+          "addressLine1": "2601 Mason Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94133"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.807769,
+        "longitude": -122.414055,
+        "neighborhoodId": "910003457",
+        "neighborhoodName": "Fisherman's Wharf",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "3457"
+      },
+      "merchandising": {},
+      "name": "The Wharf Inn",
+      "overallGuestRating": 6.9,
+      "proximity": 10.503042049697648,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "availablePromos": [
+          {
+            "discountPercentage": 0,
+            "displayStrikethroughPrice": "135.15",
+            "isVariableMarkupPromo": false,
+            "nativeStrikethroughPrice": "135.15",
+            "nativeStrikethroughPriceCurrency": "USD",
+            "showDiscount": true,
+            "title": "",
+            "type": "DISCOUNT"
+          }
+        ],
+        "ccNotRequiredAvailable": false,
+        "channelName": "Rate_Driven_CUG_Channel",
+        "freeCancelableRateAvail": true,
+        "gid": 3420,
+        "merchandisingFlag": true,
+        "minCurrencyCode": "USD",
+        "minPrice": "121.64",
+        "minStrikePrice": "135.15",
+        "payWhenYouStayAvailable": false,
+        "pclnId": "C77B279580B29CFB2B56515186B432BCC0AFF43801B799AD4CA8AF36933ABF26F0C619AD34DF550302AD7E1A4C562715CF559C1BB0FEC6EDB41782D74A15C2970CF256DD277C72F85A1BFEB4B86AB0E341AAA030AC36FEF4C5CA7C01A0A7C61B187817B79C856918",
+        "programCategoryName": "Rate Driven CUG",
+        "programName": "Mobile_Deals",
+        "rateIdentifier": "EAA598E9EAFB4F572202F4384C769E5BAE860AE8F140047C480C48663D93B81DE47572F6F6828C61308FF968BE6639D4363FE93C5DDD443CED039CA7414E84B74B79E1653477596B5F71DF39A74694C225F0009BFF61214B",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "45",
+        "savingsClaimStrikePrice": "222.00",
+        "savingsPct": "10.0",
+        "strikeThroughPrice": "135.15"
+      },
+      "recmdScore": 0,
+      "starRating": 2.5,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/3296/3296705/thumbnail-150-square.jpg",
+      "totalReviewCount": 126
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Independent",
+      "displayRank": 9991,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "4422405",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "55 5th Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94103"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.783236,
+        "longitude": -122.407071,
+        "neighborhoodId": "910051188",
+        "neighborhoodName": "South of Market - Moscone Center",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51188"
+      },
+      "merchandising": {},
+      "name": "Hotel Zetta San Francisco",
+      "overallGuestRating": 8.4,
+      "proximity": 8.814224692918273,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "channelName": "Rate_Driven_CUG_Channel",
+        "freeCancelableRateAvail": true,
+        "gid": 3221,
+        "merchandisingFlag": true,
+        "minCurrencyCode": "USD",
+        "minPrice": "134.10",
+        "minStrikePrice": "149.00",
+        "payWhenYouStayAvailable": false,
+        "pclnId": "3AAA6B60F7794DA1852E7BEC6EE4B3872A716A1C346A59C64CA8AF36933ABF26C6506F36997537D0F98FC57C05090277798D397C1F24C360D43993CE460193F8EEEBB6C8E32498F0FC1CCEFAF9DAD1FD23762EA84CE754E6823F5F75195A36FC81EB192E6C83B34CA3ED14E615232E68",
+        "programCategoryName": "Rate Driven CUG",
+        "programName": "Mobile_Deals",
+        "rateIdentifier": "8927411CA29B1E1E1BFF2451B4341DAE5F77D2B219EC90839CBE7F3C5FF1DC144DC8D6D4113980511EE3D511BCC4031D852C1191FF93A428A64EB1400C8D913F0AB222BF9556468CFB5667BB84BCDCC2D96F5C23497F0251",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "46",
+        "savingsClaimStrikePrice": "249.00",
+        "savingsPct": "10.0",
+        "strikeThroughPrice": "149.00"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/4422/4422405/thumbnail-150-square.jpg",
+      "totalReviewCount": 92
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Independent",
+      "displayRank": 9990,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "KITCHEN",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "64359604",
+      "location": {
+        "address": {
+          "addressLine1": "1485 Bush Street",
+          "cityName": "San Francisco (Ca)",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94109"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.78851712,
+        "longitude": -122.4215935,
+        "neighborhoodId": "910051710",
+        "neighborhoodName": "Japan Town - Civic Center North",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51710"
+      },
+      "merchandising": {},
+      "name": "Calista Organic Hotel",
+      "overallGuestRating": 5.7,
+      "proximity": 9.184244637904957,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "availablePromos": [
+          {
+            "discountPercentage": 0,
+            "displayStrikethroughPrice": "408.36",
+            "isVariableMarkupPromo": false,
+            "nativeStrikethroughPrice": "408.36",
+            "nativeStrikethroughPriceCurrency": "USD",
+            "showDiscount": true,
+            "title": "",
+            "type": "DISCOUNT"
+          }
+        ],
+        "ccNotRequiredAvailable": false,
+        "channelName": "Value_Deal_Channel",
+        "freeCancelableRateAvail": true,
+        "gid": 7415,
+        "merchandisingFlag": false,
+        "minCurrencyCode": "USD",
+        "minPrice": "234.19",
+        "minStrikePrice": "334.56",
+        "payWhenYouStayAvailable": false,
+        "pclnId": "0A994EA109699D77C0B828BCC9F941F33FF3EFD4B5823E53B9D36904C50D9C19A92F1675789C5F601BE5A050F551C0C1358AEC4C5E5EC616EAB9566EAEB3943315B1FA693DDECC0C53FF67F46F97E5E59EADA0D67393E77A",
+        "programCategoryName": "Value Deal",
+        "programName": "Value_Deal",
+        "rateIdentifier": "74C8F8DDA63F19F3F87C7E8D4C1BCA1BE8593F8238A08D51000C6E41E6DFBAF437EBC5F94D83A2EABF544F434A7EB5659BA093C9344D1503694D03885D5724439BB3CC20C25B6600",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "30",
+        "savingsClaimStrikePrice": "335.00",
+        "savingsPct": "30.0",
+        "strikeThroughPrice": "334.56"
+      },
+      "recmdScore": 0,
+      "starRating": 3,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/64359/64359604/thumbnail-150-square.jpg",
+      "totalReviewCount": 74
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Marriott",
+      "displayRank": 9989,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "41216",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "1250 Columbus Avenue",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94133"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.805517,
+        "longitude": -122.417708,
+        "neighborhoodId": "910003457",
+        "neighborhoodName": "Fisherman's Wharf",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "3457"
+      },
+      "merchandising": {},
+      "name": "San Francisco Marriott Fisherman's Wharf",
+      "overallGuestRating": 8.4,
+      "proximity": 10.350279818843276,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3656,
+        "minCurrencyCode": "USD",
+        "minPrice": "173.88",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "E4A9D9021098C0A09A61CB9422C2126DC393FD7CC145AF579A00D712F14ADEF26BF8C62479C27BF889ABE5F8D4756E4473904A0AEA02CF35D24BF12B72B3164AB635C9B3FBF375818037A0D3F40C2223852C1191FF93A4281C5B15BACACBEC541FD78A0001BF6CE6408E232E179DAC6F",
+        "rateIdentifier": "6BF8C62479C27BF889ABE5F8D4756E4473904A0AEA02CF35D24BF12B72B3164A79921F6E908D3D9F8037A0D3F40C2223852C1191FF93A428A64EB1400C8D913F0420066CDC347BD76AB4D072843186C6D96F5C23497F0251"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/41/41216/thumbnail-150-square.jpg",
+      "totalReviewCount": 860
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Hilton",
+      "displayRank": 9988,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "AIRSHUTTL",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "39960",
+      "location": {
+        "address": {
+          "addressLine1": "750 Kearny Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94108"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.7951440000001,
+        "longitude": -122.404311,
+        "neighborhoodId": "910051189",
+        "neighborhoodName": "Financial District - Embarcadero",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51189"
+      },
+      "merchandising": {},
+      "name": "Hilton San Francisco Financial District",
+      "overallGuestRating": 7.4,
+      "proximity": 9.642858257221766,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3361,
+        "minCurrencyCode": "USD",
+        "minPrice": "139.00",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "CA7F480FCC87D543A42A9423504CB320C393FD7CC145AF579A00D712F14ADEF2820B43414876EBB22717653F5A4B0D065B31F07AFCB0CAF3B52A23BCC107BD14D62DC5BB14064BF35A83889129C35E50852C1191FF93A4281C5B15BACACBEC544E96CDA201C524EF408E232E179DAC6F",
+        "rateIdentifier": "820B43414876EBB22717653F5A4B0D065B31F07AFCB0CAF3B52A23BCC107BD14B944BF043822A15F5A83889129C35E50852C1191FF93A428A64EB1400C8D913F0AB222BF9556468CFC19CCBF18B70BE1D96F5C23497F0251",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "52",
+        "savingsClaimStrikePrice": "289.00"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/39/39960/thumbnail-150-square.jpg",
+      "totalReviewCount": 1252
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Hyatt Centric",
+      "displayRank": 9987,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "SPOOL",
+          "AIRSHUTTL",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "40416",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "555 North Point St",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94133"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.806322,
+        "longitude": -122.416125,
+        "neighborhoodId": "910003457",
+        "neighborhoodName": "Fisherman's Wharf",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "3457"
+      },
+      "merchandising": {},
+      "name": "Hyatt Centric Fishermans Wharf",
+      "overallGuestRating": 8.1,
+      "proximity": 10.404192411834202,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3101,
+        "minCurrencyCode": "USD",
+        "minPrice": "179.00",
+        "payWhenYouStayAvailable": false,
+        "pclnId": "2226A6C527E4EBD5D1D6525DED8EE52FC393FD7CC145AF579A00D712F14ADEF288B2B79D450BFE1E590D4CC444AE2C8222184BB5306BB0B6F01860BFE99EC8B59C27A703D0E2C67A5055440218DD0AD9363FE93C5DDD443C26C398CEF21EA77AA570BC6B511CF442",
+        "rateIdentifier": "88B2B79D450BFE1E590D4CC444AE2C8222184BB5306BB0B6F01860BFE99EC8B5B0AD6525906C54CB5055440218DD0AD9363FE93C5DDD443CED039CA7414E84B7B737A524FB43A445D713F2524BBB801425F0009BFF61214B"
+      },
+      "recmdScore": 0,
+      "signInDealsAvailable": true,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/40/40416/thumbnail-150-square.jpg",
+      "totalReviewCount": 986
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Design Hotels",
+      "displayRank": 9986,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "AIRSHUTTL",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "72740604",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "1100 Market Street, Entrance At 45 Mcallister",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94102"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.78064875,
+        "longitude": -122.41231648,
+        "neighborhoodId": "910051711",
+        "neighborhoodName": "Civic Center South - South of Market",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51711"
+      },
+      "merchandising": {},
+      "name": "San Francisco Proper Hotel",
+      "overallGuestRating": 8.5,
+      "proximity": 8.629243817168373,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 2015,
+        "minCurrencyCode": "USD",
+        "minPrice": "215.20",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "19EF1C9EE38C14ED6BDB44DD996BD7E478240D5353866A19AB2147699E3F851572BE03B16689EFC34977E97EDDA0EA403AAF34435951250F88CC5DC0578E541EE6D4B55B85930BE3",
+        "rateIdentifier": "62883FDE72F026F6438C898A2FD67C0149A9C1B019EA4D350C3BC653366B1D82BA8D5C0D2CA37F8AAE56C2FD6760F7A26B5DCC6471886E75"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/72740/72740604/thumbnail-150-square.jpg",
+      "totalReviewCount": 246
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "CoHo",
+      "displayRank": 9985,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "3993805",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "580 Geary Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94102"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.786832,
+        "longitude": -122.412955,
+        "neighborhoodId": "910051191",
+        "neighborhoodName": "Union Square West",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51191"
+      },
+      "merchandising": {},
+      "name": "Staypineapple, An Elegant Hotel, Union Square",
+      "overallGuestRating": 8.6,
+      "proximity": 9.056340900126385,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 3209,
+        "minCurrencyCode": "USD",
+        "minPrice": "167.16",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "D8A28619C670FF6E02D2A8DD1DD5EB42CC28FDC3DFE5139B4CA8AF36933ABF261F2C925666B4EE1E48EDDB0C18A917D9245F225063C047DC3A4DFADDAA7E17FB36438674A89CDF0D0DCD37BC1EAE194F23762EA84CE754E6823F5F75195A36FCB30776F24A8E45F2496CE5A70CB0CCD7",
+        "rateIdentifier": "6A0B00F5137B6917E4F7181B0FE61B717840CD773EBB3470FB9A37ED2D8E3EF5ACF97B4082259323576557DBB930E374852C1191FF93A428A64EB1400C8D913F4C58C61AF87CAADA5B04D8FB1C0DCBB7D96F5C23497F0251",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "30",
+        "savingsClaimStrikePrice": "238.00"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/3993/3993805/thumbnail-150-square.jpg",
+      "totalReviewCount": 139
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Fairmont",
+      "displayRank": 9984,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "HEALTHSVCS",
+          "AIRSHUTTL",
+          "RESTRNT",
+          "FITSPA",
+          "SPA",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "39381",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "950 Mason Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94106"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.79234,
+        "longitude": -122.41077,
+        "neighborhoodId": "910051190",
+        "neighborhoodName": "Union Square East - Nob Hill",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51190"
+      },
+      "merchandising": {},
+      "name": "The Fairmont San Francisco",
+      "overallGuestRating": 8.8,
+      "proximity": 9.437825846267467,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 5578,
+        "minCurrencyCode": "USD",
+        "minPrice": "254.15",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "E0AF9B2FA4E02D127DFCB123A5820F80C393FD7CC145AF572A638E28413AE12E4434B3B154D64472AA133B4348520E9049B8091D2559443F92803807D57E9AFFE2CE17F2A0E7A75132A5A9185DF6143FCD3AE96C6F3B26CAEBB5D06F1AA43766408E232E179DAC6F",
+        "rateIdentifier": "4434B3B154D64472AA133B4348520E9049B8091D2559443F92803807D57E9AFFE2CE17F2A0E7A75132A5A9185DF6143F5C18E1A490C34761A3556679F4CF3408828AD0F73BD6AE60B08394CB1D044C4E",
+        "roomLeft": 1,
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "36",
+        "savingsClaimStrikePrice": "399.00"
+      },
+      "recmdScore": 0,
+      "starRating": 5,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/39/39381/thumbnail-150-square.jpg",
+      "totalReviewCount": 222
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Club Quarters",
+      "displayRank": 9983,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "RESTRNT",
+          "FITSPA",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "1385904",
+      "location": {
+        "address": {
+          "addressLine1": "424 Clay Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94111"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.794999,
+        "longitude": -122.400599,
+        "neighborhoodId": "910051189",
+        "neighborhoodName": "Financial District - Embarcadero",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51189"
+      },
+      "merchandising": {},
+      "name": "Club Quarters Hotel in San Francisco",
+      "overallGuestRating": 7.2,
+      "proximity": 9.645202256445847,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 5380,
+        "minCurrencyCode": "USD",
+        "minPrice": "145.00",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "95E0F039BBE8F5F48A0D69298FC00C62C06661E41B2541C7D57EFE0F8E6BA8E588B7DBE3706974E4A19850ACCE87650762FB99496053BA28232B8B6152FF49E3B4ED7D1D1FEE2F536D3373E1C9FE1ABACD3AE96C6F3B26CA6273C680D882433B408E232E179DAC6F",
+        "rateIdentifier": "4434B3B154D6447286C8EAE8A5BEA3903240276CC457985B030DBB934B46A07471F4B2DAB997D789A9C2A4D3EB63C711EC4D73C89B8D90ABF06CC89AA9560495D713F2524BBB801425F0009BFF61214B",
+        "roomLeft": 1,
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "50",
+        "savingsClaimStrikePrice": "289.00"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/1385/1385904/thumbnail-150-square.jpg",
+      "totalReviewCount": 1288
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Independent",
+      "displayRank": 9982,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "HEALTHSVCS",
+          "AIRSHUTTL",
+          "RESTRNT",
+          "BUSCNTR",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "3686505",
+      "location": {
+        "address": {
+          "addressLine1": "610 Polk Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94102"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.782305,
+        "longitude": -122.419019,
+        "neighborhoodId": "910051710",
+        "neighborhoodName": "Japan Town - Civic Center North",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51710"
+      },
+      "merchandising": {},
+      "name": "Embassy Hotel",
+      "overallGuestRating": 5.5,
+      "proximity": 8.749343019727792,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "channelName": "Value_Deal_Channel",
+        "freeCancelableRateAvail": true,
+        "gid": 3830,
+        "merchandisingFlag": false,
+        "minCurrencyCode": "USD",
+        "minPrice": "111.30",
+        "minStrikePrice": "159.00",
+        "payWhenYouStayAvailable": false,
+        "pclnId": "BE45B0DEE6013820CC27F458C581B3F74AD6A354419E779766081AC390B92DC129731B53F07AF6147E14E4D9A7092CE8F537638D76BAF2BA64B8824EF8F8020736889B779CDE29AE38C68F0C77C89CC79405007FEA2A2546DBCF676BD5009AEB7FA81F7E85057EB96180DBE2E46CBE1D",
+        "programCategoryName": "Value Deal",
+        "programName": "Value_Deal",
+        "rateIdentifier": "7E14E4D9A7092CE8F537638D76BAF2BA64B8824EF8F8020736889B779CDE29AE695F7D82A1518C259405007FEA2A2546DBCF676BD5009AEBBA46C037A3BCC7E1601E87E4BB52D16FF5D642BE75CF6BF8138B7A3360582BEB",
+        "savingsPct": "30.0",
+        "strikeThroughPrice": "159.00"
+      },
+      "recmdScore": 0,
+      "starRating": 2.5,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/3686/3686505/thumbnail-150-square.jpg",
+      "totalReviewCount": 122
+    },
+    {
+      "allInclusiveRateProperty": false,
+      "brand": "Nikko",
+      "displayRank": 9981,
+      "hotelFeatures": {
+        "hotelAmenityCodes": [
+          "FINTRNT",
+          "FINTRPUB",
+          "SPOOL",
+          "RESTRNT",
+          "FITSPA",
+          "SPA",
+          "PETALLOW",
+          "BUSCNTR",
+          "HANDFAC",
+          "NSMKFAC"
+        ]
+      },
+      "hotelId": "41246",
+      "keyFeatures": [
+        "clean"
+      ],
+      "location": {
+        "address": {
+          "addressLine1": "222 Mason Street",
+          "cityName": "San Francisco",
+          "countryName": "United States",
+          "isoCountryCode": "US",
+          "provinceCode": "CA",
+          "zip": "94102"
+        },
+        "cityId": 3000002244,
+        "latitude": 37.786006,
+        "longitude": -122.409196,
+        "neighborhoodId": "910051191",
+        "neighborhoodName": "Union Square West",
+        "timeZone": "America/Los_Angeles",
+        "zoneId": "51191"
+      },
+      "merchandising": {},
+      "name": "Hotel Nikko San Francisco",
+      "overallGuestRating": 8.3,
+      "proximity": 9.001911133439046,
+      "ratesSummary": {
+        "applePayRateAvailable": false,
+        "ccNotRequiredAvailable": false,
+        "freeCancelableRateAvail": true,
+        "gid": 2882,
+        "minCurrencyCode": "USD",
+        "minPrice": "215.00",
+        "payWhenYouStayAvailable": true,
+        "pclnId": "4D3655844715DDEBCD3A41A7EAF9C759C393FD7CC145AF574DCF0272FA17A51248C460E2D8DC347B8962E9F3F5C082D3F284D8D9951AA22E70F631332DD02C2F408E232E179DAC6F",
+        "rateIdentifier": "48C460E2D8DC347B8962E9F3F5C082D38A04B5976C6CC2C2F49F2D5CBB63C96E8B4089F7BD150919A963FC682DE55B217EA3048807BEE935",
+        "savingsClaimDisclaimer": "The highest price of similar properties with the same star level and neighborhood for your dates.",
+        "savingsClaimPercentage": "10",
+        "savingsClaimStrikePrice": "238.00"
+      },
+      "recmdScore": 0,
+      "starRating": 4,
+      "thumbnailUrl": "https://mobileimg.priceline.com/htlimg/41/41246/thumbnail-150-square.jpg",
+      "totalReviewCount": 627
+    }
+  ],
+  "marketSize": 398,
+  "offset": 0,
+  "opqDisplayFlag": false,
+  "pageSize": 20,
+  "resultCode": 200,
+  "resultMessage": "SUCCESS",
+  "rguid": "14e7f54c1a0336aebdb09c69d55767af",
+  "signInDealRelatedInfo": {
+    "maxSavingsAmount": 98,
+    "maxSavingsAmountCurrency": "USD",
+    "numberOfAvailableSignInDeals": 27,
+    "numberOfDisclosedSignInDeals": 0,
+    "promptUserToSignIn": true
+  },
+  "sopqDisplayFlag": true,
+  "sortType": "HDR",
+  "src": "067",
+  "totalSize": 288,
+  "tripFilterSummary": {
+    "totalSizeFiltered": 288
+  },
+  "version": "8.95.4"
+}

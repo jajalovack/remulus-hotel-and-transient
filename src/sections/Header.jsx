@@ -1,28 +1,18 @@
-import {Container,Nav,Navbar,NavDropdown} from 'react-bootstrap';
-import "./Header.css";
+import {Container,Nav,Navbar} from 'react-bootstrap';
+import "./Header.scoped.css";
 import {ReactSVG} from "react-svg";
 
 const Header=(()=> {
   return (
-    <Navbar expand="lg" className="navbarBG" data-bs-theme="dark">
+    <Navbar expand="lg" className="navbarBG" data-bs-theme="dark" sticky="top">
       <Container fluid>
-        <Navbar.Brand href="#home"><ReactSVG src="../assets/logoNavbar.svg" beforeInjection={(svg)=>{svg.setAttribute("style","height: 50px;")}}/></Navbar.Brand>
+        <Navbar.Brand href={`/`}><ReactSVG src="../assets/logoNavbar.svg" beforeInjection={(svg)=>{svg.setAttribute("style","height: 50px; margin: 5px 20px;")}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href={`/`} className='active'>Home</Nav.Link>
+            <Nav.Link href={`/About`}>About</Nav.Link>
+            <Nav.Link href={`/Services`}>Services</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

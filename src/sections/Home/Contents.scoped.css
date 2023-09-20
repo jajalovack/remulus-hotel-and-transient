@@ -1,0 +1,28 @@
+section
+{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+
+.intro
+{
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.intro .contentImg img
+{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.testimony
+{
+    border: solid 1px #888888;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #969696;
+}
