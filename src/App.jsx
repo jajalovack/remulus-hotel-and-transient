@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 import Home from './views/Home'
 import Header from './sections/Header'
+import Footer from "./sections/Footer"
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
       </main>
       <Home/>
+      <Footer/>
     </>
   )
 }

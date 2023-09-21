@@ -24,8 +24,10 @@ const Contents = () => {
                 <h5>Find the room that suits your needs</h5>
             </div>
             <div className="contentImg">
-                <a href="#" className="primary">Book for a day</a>
-                <a href="#" className="secondary">Rent long-term</a>
+                <div className="btnGroup">
+                    <a href="#" className="primary">Book for a day</a>
+                    <a href="#" className="secondary">Rent long-term</a>
+                </div>
             </div>
         </section>
     </>

@@ -18,31 +18,48 @@ section
     border-radius: 10px;
 }
 
+.testimonies
+{
+    background-color: #50BBB5;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
 .testimony
 {
+    background-color: white;
     border: solid 1px #888888;
     height: 300px;
-    width: 500px;
+    min-width: 500px;
+    max-width: 500px;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px #969696;
+    box-shadow: 10px 10px 10px #076472;
+    margin: 2rem;
 }
 
 .seeHotels
 {
-    background-color: #50BBB5;
-    color: white;
-    display: flex;
     align-items: center;
 }
 
 .seeHotels .contentImg
 {
-    padding: 120px 220px;
+    padding: 120px;
     background: #0009 url("../../assets/home/seeHotels.webp");
     background-blend-mode: darken;
     background-size: cover;
     border-radius: 10px;
     width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.seeHotels .btnGroup
+{
+    width: 300px;
+    min-width: 300px;
+    padding:  0 30px;
 }
 
 .seeHotels .contentImg a
