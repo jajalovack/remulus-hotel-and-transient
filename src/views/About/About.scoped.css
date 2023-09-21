@@ -1,0 +1,10 @@
+.contentContainer
+{
+    min-height: calc(100vh - 392px);
+}
+
+h1.title
+{
+    font-size: 90px;
+    text-align: center;
+}
