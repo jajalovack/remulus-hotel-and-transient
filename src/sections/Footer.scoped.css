@@ -1,0 +1,34 @@
+footer
+{
+    background-color: #3e9490;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logoCopy
+{
+    text-align: center;
+    padding: 30px;
+}
+
+.logoCopy object
+{
+    height: 200px;
+}
+
+.contacts
+{
+    padding: 30px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+    transform: translateX(-20px);
+    margin-bottom: 5px;
+}

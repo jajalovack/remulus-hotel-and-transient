@@ -8,7 +8,7 @@ import {
   faStar,
   faMapMarker,
 } from "@fortawesome/free-solid-svg-icons";
-import "./hotelList.css";
+import "./HotelList.scoped.css";
 
 function HotelList() {
   const [hotelData, setHotelData] = useState([]);

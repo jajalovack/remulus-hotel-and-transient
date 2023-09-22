@@ -1,0 +1,35 @@
+h1.title
+{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contents > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents > div > div
+{
+    padding: 40px;
+}
+
+.contentImg
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentImg img
+{
+    height: 350px;
+}
+
+.contentText
+{
+    width: 800px;
+}

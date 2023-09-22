@@ -1,0 +1,87 @@
+section
+{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+
+.intro
+{
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.intro .contentImg img
+{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.testimonies
+{
+    background-color: #50BBB5;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.testimony
+{
+    background-color: white;
+    border: solid 1px #888888;
+    height: 300px;
+    min-width: 500px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #076472;
+    margin: 2rem;
+}
+
+.seeHotels
+{
+    align-items: center;
+}
+
+.seeHotels .contentImg
+{
+    padding: 120px;
+    background: #0009 url("../../assets/home/seeHotels.webp");
+    background-blend-mode: darken;
+    background-size: cover;
+    border-radius: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.seeHotels .btnGroup
+{
+    width: 300px;
+    min-width: 300px;
+    padding:  0 30px;
+}
+
+.seeHotels .contentImg a
+{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.primary
+{
+    margin-bottom: 0.5rem;
+    color: #212529;
+    background-color: white;
+    padding: 15px 30px;
+}
+
+.secondary
+{
+    color: white;
+    border: solid 3px white;
+    padding: 12px 27px;
+}
