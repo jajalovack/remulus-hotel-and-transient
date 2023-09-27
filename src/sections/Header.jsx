@@ -15,7 +15,7 @@ const Header=(()=> {
           <Nav className="mr-auto" activeKey={active} onSelect={(selected)=>setActive(selected)}>
             <Nav.Link as={Link} to={`/`} eventKey={"/"}>Home</Nav.Link>
             <Nav.Link as={Link} to={`/About`} eventKey={"/About"}>About</Nav.Link>
-            <Nav.Link as={Link} to={`/Book`} eventKey={"/Book"}>Book Rooms</Nav.Link>
+            <Nav.Link as={Link} to={`/rooms`} eventKey={"/rooms"}>Book Rooms</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

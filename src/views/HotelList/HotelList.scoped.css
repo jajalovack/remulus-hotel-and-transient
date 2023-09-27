@@ -13,6 +13,12 @@
   border-radius: 4px;
   background-color: whitesmoke;
   transition: 0.2s;
+  text-decoration: none;
+}
+
+.cardImage
+{
+  height: 200px;
 }
 
 .hotelName, .address
@@ -30,7 +36,7 @@
 
 .hotelDetails
 {
-  height: 200px;
+  height: 150px;
 }
 
 .custom-card:hover {
@@ -38,7 +44,6 @@
 }
 
 .custom-card .card-img-top {
-  max-height: 200px;
   object-fit: cover;
 }
 
@@ -49,4 +54,9 @@
 
 .custom-card .card-text p {
   margin-bottom: 5px;
+}
+
+.space
+{
+  height: 50px;
 }

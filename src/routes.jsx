@@ -1,6 +1,7 @@
 import Home from "./views/Home/index"
 import About from "./views/About/index"
 import HotelList from "./views/HotelList/index"
+import HotelDetails from "./views/HotelDetails/index";
 
 const routes=[
     {
@@ -12,9 +13,15 @@ const routes=[
         element: <About/>
     },
     {
-        path: "/book",
+        path: "/rooms",
         element: <HotelList/>
+    },
+    {
+        path: "/rooms/:id",
+        element: <HotelDetails/>
     }
 ];
+
+
 
 export default routes;
