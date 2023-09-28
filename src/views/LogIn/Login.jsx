@@ -18,10 +18,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./Login.scoped.css";
 const Register = () => {
+  document.title="Remulus - Log In";
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
   const [validated, setValidated] = useState(false);
   const [error, setError] = useState(null);
 
@@ -34,11 +34,6 @@ const Register = () => {
 
     if (!form.checkValidity()) {
       event.stopPropagation();
-      return;
-    }
-
-    if (password !== confirmPassword) {
-      setError("Passwords do not match.");
       return;
     }
 
@@ -91,20 +86,6 @@ const Register = () => {
                       placeholder="Password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                    />
-                  </Form.Group>
-                  <Form.Group className="mb-2">
-                    <Form.Label>
-                      {" "}
-                      <FontAwesomeIcon icon={faLock} />
-                      Confirm Password
-                    </Form.Label>
-                    <Form.Control
-                      required
-                      type="password"
-                      placeholder="Confirm Password"
-                      value={confirmPassword}
-                      onChange={(e) => setConfirmPassword(e.target.value)}
                     />
                   </Form.Group>
                   {error && (

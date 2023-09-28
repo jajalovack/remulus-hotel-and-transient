@@ -12,6 +12,7 @@ import {
 import "./register.scoped.css";
 
 const Register = () => {
+  document.title="Remulus - Register";
   const navigate = useNavigate();
 
   // Initial form data and validation state
