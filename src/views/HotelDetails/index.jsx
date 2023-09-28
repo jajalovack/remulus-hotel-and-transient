@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 import "./HotelDetails.scoped.css";
+import NotExist from "../NotExist";
 
 const HotelDetails = () => {
   let {id}=useParams();
@@ -14,12 +15,17 @@ const HotelDetails = () => {
     pictures:[],
     amenities:[]
   });
+  const [exists, sike]=useState(false);
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.get("http://localhost:8000/hotels/"+id);
         const hotels = response.data;
         setHotelData(hotels);
+        if (response.status!=404)
+        {
+          sike(true);
+        }
       } catch (error) {
         console.error(error);
       }
@@ -32,7 +38,7 @@ const HotelDetails = () => {
   {
     if (String(hotelData.bookingType).includes("Transient"))
     {
-      return <>&emsp;<b>Transient:</b> {hotelData.price_per_night}<br/></>
+      return <>&emsp;<b>Transient:</b> {hotelData.price_per_night} per 24 hours<br/></>
     }
     else
     {
@@ -43,7 +49,7 @@ const HotelDetails = () => {
   {
     if (String(hotelData.bookingType).includes("Long-term"))
     {
-      return <>&emsp;<b>Long-term:</b> {hotelData.price_per_month}<br/></>
+      return <>&emsp;<b>Long-term:</b> {hotelData.price_per_month} per month<br/></>
     }
     else
     {
@@ -51,6 +57,8 @@ const HotelDetails = () => {
     }
   }
 
+  if (exists)
+  {
   return (
     <>
       <div className="contentContainer">
@@ -92,7 +100,8 @@ const HotelDetails = () => {
         </div>
       </div>
     </>
-  )
+  )}
+  return <NotExist errorType="room"/>
 }
 
 export default HotelDetails

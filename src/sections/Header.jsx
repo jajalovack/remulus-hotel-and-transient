@@ -50,14 +50,11 @@ const Header = () => {
             <Nav.Link as={Link} to={`/About`} eventKey={"/About"}>
               About
             </Nav.Link>
-            <Nav.Link as={Link} to={`/Book`} eventKey={"/Book"}>
-              Hotel List
-            </Nav.Link>
-            <Nav.Link as={Link} to={`/HotelDetails`} eventKey={"/HotelDetails"}>
-              Hotel Details
+            <Nav.Link as={Link} to={`/rooms`} eventKey={"/rooms"}>
+              Book Rooms
             </Nav.Link>
           </Nav>
-          <Nav>
+          <Nav className="logReg">
             {isAuthenticated ? (
               <Nav.Link onClick={logout}>Logout</Nav.Link>
             ) : (

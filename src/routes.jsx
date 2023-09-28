@@ -1,9 +1,10 @@
 import Home from "./views/Home/index";
 import About from "./views/About/index";
 import HotelList from "./views/HotelList/index";
+import HotelDetails from "./views/HotelDetails/index";
+import NotExist from "./views/NotExist";
 import Login from "./views/LogIn/Login";
 import Register from "./views/Register/Register";
-import HotelDetails from "./views/HotelDetails/index";
 
 const routes = [
   {
@@ -15,20 +16,24 @@ const routes = [
     element: <About />,
   },
   {
-    path: "/hotelList",
+    path: "/rooms",
     element: <HotelList />,
   },
   {
-    path: "hotelDetails",
+    path: "/rooms/:id",
     element: <HotelDetails />,
   },
   {
-    path: "/Login",
+    path: "/login",
     element: <Login />,
   },
   {
-    path: "/Register",
+    path: "/register",
     element: <Register />,
+  },
+  {
+    path: "*",
+    element: <NotExist errorType="noDir" />,
   },
 ];
 
