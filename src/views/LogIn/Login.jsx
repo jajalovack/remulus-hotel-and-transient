@@ -49,7 +49,7 @@ const Register = () => {
       window.dispatchEvent(new Event("storage"));
       navigate("/");
     } catch (error) {
-      setError("Registration failed. Please try again."); // Display a user-friendly error message
+      setError("Email or password is incorrect."); // Display a user-friendly error message
       console.log(error); // Log the error for debugging purposes
     }
   }
