@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import http from "./../../libraries/http.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,6 +27,13 @@ const Register = () => {
   const [confirmPassword,setPassword]=useState("");
 
   const [validated, setValidated] = useState(false);
+
+  useEffect(()=>{
+    if (localStorage.getItem("token")!=undefined)
+    {
+      console.log("Go home")
+      navigate("/");
+    }},[])
 
   // Handle input changes
   const handleChange = (e) => {
