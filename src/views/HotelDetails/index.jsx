@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { Carousel, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +16,8 @@ const HotelDetails = () => {
     amenities:[]
   });
   const [exists, sike]=useState(false);
-  const [isBookedNa,bookedNa]=useState(false)
+  const [isBookedNa,bookedNa]=useState(false);
+  const navigate=useNavigate();
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -39,6 +40,16 @@ const HotelDetails = () => {
     fetchData();
   }, []);
   document.title=hotelData.name+" - Remulus"
+
+  function bookHotel()
+  {
+    let newData=hotelData;
+    newData.isBooked=true;
+    axios.put(String(import.meta.env.VITE_API)+"/hotels/"+id,newData);
+    alert("Room Successfully Booked!")
+    navigate("/rooms/"+id);
+  }
+
   function displayPrice()
   {
     let prices=[];
@@ -87,11 +98,11 @@ const HotelDetails = () => {
     return options;
   }
 
-  function proceedToBook()
+  function proceedToBook(nakuhaNa)
   {
     if (localStorage.getItem("token")!=undefined)
     {
-      return (<button className="proceed">Proceed to booking&emsp;<FontAwesomeIcon icon={faArrowRight} /></button>);
+      return (<button className="proceed" onClick={bookHotel} disabled={nakuhaNa}>Proceed to booking&emsp;<FontAwesomeIcon icon={faArrowRight} /></button>);
     }
     else
     {
@@ -104,6 +115,19 @@ const HotelDetails = () => {
               <Button as={Link} to="/login" className="logIn">Log in</Button> or <Button as={Link} to="/register" className="register">Register</Button>
             </div>
           </div>
+        </>
+      )
+    }
+  }
+
+  function haba()
+  {
+    if (!hotelData.isBooked)
+    {
+      return (
+        <>
+          <h4>How long will you stay?</h4>
+          <input type="number" min="1" defaultValue="1" className="duration"/><br/>
         </>
       )
     }
@@ -156,9 +180,8 @@ const HotelDetails = () => {
             <select name="bookingType" id="bookingType" disabled={isBookedNa}>
               {bookingTypes()}
             </select>
-            <h4>How long will you stay?</h4>
-            <input type="number" min="1" defaultValue="1" className="duration"/><br/>
-            {proceedToBook()}
+            {haba()}
+            {proceedToBook(hotelData.isBooked)}
         </div>
       </div>
     </>
