@@ -12,15 +12,38 @@
   border: 1px solid #e0e0e0;
   border-radius: 4px;
   background-color: whitesmoke;
-  transition: 0.5s;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.cardImage
+{
+  height: 200px;
+}
+
+.hotelName, .address
+{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.hotelName
+{
+  height: 50px;
+}
+
+.hotelDetails
+{
+  height: 150px;
 }
 
 .custom-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .custom-card .card-img-top {
-  max-height: 200px;
   object-fit: cover;
 }
 
@@ -31,4 +54,9 @@
 
 .custom-card .card-text p {
   margin-bottom: 5px;
+}
+
+.space
+{
+  height: 50px;
 }
