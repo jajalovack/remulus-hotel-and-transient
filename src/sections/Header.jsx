@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Header.scoped.css";
 import { ReactSVG } from "react-svg";
 import { useState, useEffect } from "react";
+import navLogo from "../assets/logoNavbar.svg"
 
 const Header = () => {
   const [active, setActive] = useState(window.location.pathname);
@@ -35,7 +36,7 @@ const Header = () => {
       <Container fluid>
         <Navbar.Brand as={Link} to={`/`}>
           <ReactSVG
-            src="../assets/logoNavbar.svg"
+            src={navLogo}
             beforeInjection={(svg) => {
               svg.setAttribute("style", "height: 50px; margin: 5px 20px;");
             }}
