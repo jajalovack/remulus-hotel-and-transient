@@ -3,6 +3,8 @@ import About from "./views/About/index"
 import HotelList from "./views/HotelList/index"
 import HotelDetails from "./views/HotelDetails/index";
 import NotExist from "./views/NotExist";
+import Login from "./views/LogIn/Login";
+import Register from "./views/Register/Register";
 
 const routes=[
     {
@@ -20,6 +22,14 @@ const routes=[
     {
         path: "/rooms/:id",
         element: <HotelDetails/>
+    },
+    {
+        path: "/login",
+        element: <Login />,
+    },
+    {
+        path: "/register",
+        element: <Register />,
     },
     {
         path: "*",
