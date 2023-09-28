@@ -2,6 +2,7 @@ import Home from "./views/Home/index"
 import About from "./views/About/index"
 import HotelList from "./views/HotelList/index"
 import HotelDetails from "./views/HotelDetails/index";
+import NotExist from "./views/NotExist";
 
 const routes=[
     {
@@ -19,6 +20,10 @@ const routes=[
     {
         path: "/rooms/:id",
         element: <HotelDetails/>
+    },
+    {
+        path: "*",
+        element: <NotExist errorType="noDir"/>
     }
 ];
 
