@@ -30,9 +30,7 @@
         ]
       },
       "hotelId": "42963",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "55 Cyril Magnin Street",
@@ -102,9 +100,7 @@
         ]
       },
       "hotelId": "8794805",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "888 Howard Street",
@@ -163,9 +159,7 @@
         ]
       },
       "hotelId": "40441",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "999 California Street",
@@ -221,9 +215,7 @@
         ]
       },
       "hotelId": "40419",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "345 Stockton Street",
@@ -282,9 +274,7 @@
         ]
       },
       "hotelId": "40418",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "5 Embarcadero Center",
@@ -343,9 +333,7 @@
         ]
       },
       "hotelId": "41215",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "780 Mission Street",
@@ -391,17 +379,10 @@
       "brand": "Warwick International Hotels",
       "displayRank": 9994,
       "hotelFeatures": {
-        "hotelAmenityCodes": [
-          "FINTRNT",
-          "RESTRNT",
-          "HANDFAC",
-          "NSMKFAC"
-        ]
+        "hotelAmenityCodes": ["FINTRNT", "RESTRNT", "HANDFAC", "NSMKFAC"]
       },
       "hotelId": "42693",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "490 Geary Street",
@@ -455,9 +436,7 @@
         ]
       },
       "hotelId": "42689",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "335 Powell Street",
@@ -590,9 +569,7 @@
         ]
       },
       "hotelId": "4422405",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "55 5th Street",
@@ -732,9 +709,7 @@
         ]
       },
       "hotelId": "41216",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "1250 Columbus Avenue",
@@ -850,9 +825,7 @@
         ]
       },
       "hotelId": "40416",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "555 North Point St",
@@ -909,9 +882,7 @@
         ]
       },
       "hotelId": "72740604",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "1100 Market Street, Entrance At 45 Mcallister",
@@ -965,9 +936,7 @@
         ]
       },
       "hotelId": "3993805",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "580 Geary Street",
@@ -1026,9 +995,7 @@
         ]
       },
       "hotelId": "39381",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "950 Mason Street",
@@ -1208,9 +1175,7 @@
         ]
       },
       "hotelId": "41246",
-      "keyFeatures": [
-        "clean"
-      ],
+      "keyFeatures": ["clean"],
       "location": {
         "address": {
           "addressLine1": "222 Mason Street",

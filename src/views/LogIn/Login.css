@@ -26,10 +26,6 @@
   margin-right: 10px;
 }
 
-.form-control {
-  margin-bottom: 15px;
-}
-
 .alert {
   display: flex;
   align-items: center;
@@ -51,19 +47,19 @@
 
 .form-control {
   margin-bottom: 15px;
-  transition: border-color 0.3s ease-in-out; /* Add a smooth transition to the border color */
+  transition: border-color 0.3s ease-in-out;
 }
 
 .form-control:hover {
-  border-color: #1d4065; /* Change border color on hover */
+  border-color: #1d4065;
 }
 
 .button-container {
   text-align: right;
   margin-top: 20px;
-  transition: opacity 0.3s ease-in-out; /* Add a smooth transition to opacity */
+  transition: opacity 0.3s ease-in-out;
 }
 
 .button-container:hover {
-  opacity: 0.8; /* Reduce opacity on hover */
+  opacity: 0.8;
 }

@@ -51,7 +51,10 @@ const Header = () => {
               About
             </Nav.Link>
             <Nav.Link as={Link} to={`/Book`} eventKey={"/Book"}>
-              Book Rooms
+              Hotel List
+            </Nav.Link>
+            <Nav.Link as={Link} to={`/HotelDetails`} eventKey={"/HotelDetails"}>
+              Hotel Details
             </Nav.Link>
           </Nav>
           <Nav>

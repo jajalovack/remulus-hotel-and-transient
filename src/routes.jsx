@@ -15,8 +15,20 @@ const routes = [
     element: <About />,
   },
   {
-    path: "/book",
+    path: "/hotelList",
     element: <HotelList />,
+  },
+  {
+    path: "hotelDetails",
+    element: <HotelDetails />,
+  },
+  {
+    path: "/Login",
+    element: <Login />,
+  },
+  {
+    path: "/Register",
+    element: <Register />,
   },
 ];
 

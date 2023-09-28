@@ -54,8 +54,8 @@ const Register = () => {
       window.dispatchEvent(new Event("storage"));
       navigate("/");
     } catch (error) {
-      setError("Registration failed. Please try again."); // Display a user-friendly error message
-      console.log(error); // Log the error for debugging purposes
+      setError("Registration failed. Please try again.");
+      console.log(error);
     }
   }
 
@@ -114,7 +114,12 @@ const Register = () => {
                     </Alert>
                   )}
                   <Form.Group className="mb-2 d-flex button-container ">
-                    <Button as="input" type="submit" value="Sign in" />
+                    <Button
+                      className="btn"
+                      as="input"
+                      type="submit"
+                      value="Sign in"
+                    />
                   </Form.Group>
                 </Form>
               </Card.Body>
