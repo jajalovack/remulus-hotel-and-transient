@@ -1,0 +1,39 @@
+.contentContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.details, .checkout
+{
+    width: 700px;
+    margin: 50px;
+}
+
+.detailsText
+{
+    margin-bottom: 20px;
+}
+
+.previewContainer
+{
+    padding: 10px 50px 30px;
+}
+
+.preview
+{
+    width: 100%;
+    height: 300px;
+}
+
+.carouselItem
+{
+    text-align: center;
+    background-color: #3E9490;
+    height: 300px;
+}
+
+.carouselItem img
+{
+    height: 100%;
+}
