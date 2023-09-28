@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Header.scoped.css";
 import { ReactSVG } from "react-svg";
@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 const Header = () => {
   const [active, setActive] = useState(window.location.pathname);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const navigate=useNavigate();
 
   useEffect(() => {
     checkAuthenticationStatus();
@@ -24,7 +25,10 @@ const Header = () => {
   function logout() {
     localStorage.clear();
     window.dispatchEvent(new Event("storage"));
+    navigate("/");
   }
+
+  const user=JSON.parse(localStorage.getItem("user"))
 
   return (
     <Navbar expand="lg" className="navbarBG" data-bs-theme="dark" sticky="top">
@@ -46,7 +50,7 @@ const Header = () => {
           </Nav>
           <Nav className="logReg">
             {isAuthenticated ? (
-              <Nav.Link onClick={logout}>Logout</Nav.Link>
+              <Nav.Link onClick={logout}>Logout ({user.firstName} {user.lastName})</Nav.Link>
             ) : (
               <>
                 <Nav.Link as={Link} to="/login">
