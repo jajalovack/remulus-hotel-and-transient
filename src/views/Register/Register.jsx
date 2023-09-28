@@ -134,6 +134,20 @@ const Register = () => {
                       onChange={handleChange}
                     />
                   </Form.Group>
+                  {/* Email Address */}
+                  <Form.Group className="mb-2">
+                    <Form.Label>
+                      <FontAwesomeIcon icon={faEnvelope} /> Email Address
+                    </Form.Label>
+                    <Form.Control
+                      required
+                      type="email"
+                      placeholder="Email Address"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                    />
+                  </Form.Group>
                   {/* Password */}
                   <Form.Group className="mb-2">
                     <Form.Label>
@@ -159,20 +173,6 @@ const Register = () => {
                       placeholder="Confirm Password"
                       value={confirmPassword}
                       onChange={handleChangePassword}
-                    />
-                  </Form.Group>
-                  {/* Email Address */}
-                  <Form.Group className="mb-2">
-                    <Form.Label>
-                      <FontAwesomeIcon icon={faEnvelope} /> Email Address
-                    </Form.Label>
-                    <Form.Control
-                      required
-                      type="email"
-                      placeholder="Email Address"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
                     />
                   </Form.Group>
                   {/* Submit Button */}
