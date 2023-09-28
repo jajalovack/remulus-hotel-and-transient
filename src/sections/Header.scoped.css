@@ -3,6 +3,12 @@
     background-color: #3e9490;
 }
 
+.navBarLogo
+{
+    height: 50px;
+    margin: 5px 20px;
+}
+
 .logReg
 {
     margin: 0 40px;
