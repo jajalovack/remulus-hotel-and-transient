@@ -20,9 +20,10 @@ const Register = () => {
     lastName: "",
     username: "",
     password: "",
-    confirmPassword: "",
     email: "",
   });
+
+  const [confirmPassword,setPassword]=useState("");
 
   const [validated, setValidated] = useState(false);
 
@@ -30,6 +31,11 @@ const Register = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+  };
+
+  const handleChangePassword = (e) => {
+    const { name, value } = e.target;
+    setPassword(e.target.value);
   };
 
   // Handle form submission
@@ -49,7 +55,7 @@ const Register = () => {
     }
 
     // Check if password and confirmed password match
-    if (formData.password !== formData.confirmPassword) {
+    if (formData.password !== confirmPassword) {
       console.log("Password and confirmed password do not match");
       return;
     }
@@ -144,9 +150,8 @@ const Register = () => {
                       required
                       type="password"
                       placeholder="Confirm Password"
-                      name="confirmPassword"
-                      value={formData.confirmPassword}
-                      onChange={handleChange}
+                      value={confirmPassword}
+                      onChange={handleChangePassword}
                     />
                   </Form.Group>
                   {/* Email Address */}

@@ -37,3 +37,13 @@
 {
     height: 100%;
 }
+
+.dataBelowCarousel
+{
+    display: flex;
+}
+
+.moreData, .amenities
+{
+    width: 50%;
+}

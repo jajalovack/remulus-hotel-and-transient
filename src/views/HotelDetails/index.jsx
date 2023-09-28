@@ -78,21 +78,23 @@ const HotelDetails = () => {
               }
             </Carousel>
           </div>
-          <div className="moreData">
-            <h4>Room Details</h4>
-            &emsp;<b>Branch:</b> {hotelData.branch}<br/>
-            &emsp;<b>Booking Type:</b> {hotelData.bookingType}<br/>
-            &emsp;<b>Pricing:</b><br/>
-            &emsp;{displayPriceTransient()}
-            &emsp;{displayPriceLongTerm()}
-          </div>
-          <div className="amenities">
-            <h4>Amenities:</h4>
-            <ul>
-              {
-                hotelData.amenities.map((amenity,index)=>(<li key={index}>{amenity}</li>))
-              }
-            </ul>
+          <div className="dataBelowCarousel">
+            <div className="moreData">
+              <h4>Room Details</h4>
+              &emsp;<b>Branch:</b> {hotelData.branch}<br/>
+              &emsp;<b>Booking Type:</b> {hotelData.bookingType}<br/>
+              &emsp;<b>Pricing:</b><br/>
+              &emsp;{displayPriceTransient()}
+              &emsp;{displayPriceLongTerm()}
+            </div>
+            <div className="amenities">
+              <h4>Amenities:</h4>
+              <ul>
+                {
+                  hotelData.amenities.map((amenity,index)=>(<li key={index}>{amenity}</li>))
+                }
+              </ul>
+            </div>
           </div>
         </div>
         <div className="checkout">
