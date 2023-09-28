@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBuilding,
@@ -9,10 +8,11 @@ import {
   faMapMarker,
 } from "@fortawesome/free-solid-svg-icons";
 import "./HotelList.scoped.css";
+import { Link } from "react-router-dom";
 
 function HotelList() {
   const [hotelData, setHotelData] = useState([]);
-
+  document.title="Remulus - See Rooms"
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -29,40 +29,40 @@ function HotelList() {
   }, []);
 
   return (
+    <>
     <Container>
       <Row className="custom-row">
         {hotelData.map((hotel, index) => (
           <Col key={`hotel-${index}`} xs={12} sm={6} md={4} lg={3}>
-            <Card className="custom-card">
-              <Card.Img variant="top" src={hotel.thumbnailUrl} />
+            <Card className="custom-card" as={Link} to={"/rooms/"+hotel.id}>
+              <Card.Img variant="top" src={hotel.thumbnail} className="cardImage"/>
               <Card.Body>
-                <Card.Title>{hotel.name}</Card.Title>
+              <div className="hotelDetails">
+                <Card.Title>
+                  <div className="hotelName">
+                  {hotel.name}
+                  </div>
+                  </Card.Title>
                 <Card.Text>
-                  <p>
-                    <FontAwesomeIcon icon={faBuilding} /> Brand: {hotel.brand}
-                  </p>
-                  <p>
-                    <FontAwesomeIcon icon={faStar} /> Star Rating:{" "}
-                    {hotel.starRating}
-                  </p>
-                  <p>
-                    <FontAwesomeIcon icon={faMapMarker} /> Address:{" "}
-                    {hotel.location.address.addressLine1},{" "}
-                    {hotel.location.address.cityName},{" "}
-                    {hotel.location.address.stateCode}{" "}
-                    {hotel.location.address.zip}
-                  </p>
-                  <p>
-                    <FontAwesomeIcon icon={faStar} /> Overall Guest Rating:{" "}
-                    {hotel.overallGuestRating}
-                  </p>
+                    <p>
+                      <FontAwesomeIcon icon={faMapMarker} />&ensp;Branch: {hotel.branch}
+                    </p>
+                    <p className="address">
+                      <FontAwesomeIcon icon={faBuilding} />&ensp;Booking Type: {hotel.bookingType}
+                    </p>
+                    <p style={{transform:"translateX(-2px)"}}>
+                      <FontAwesomeIcon icon={faStar} style={{marginRight:"-3.7px"}}/>&ensp;Overall Guest Rating: {hotel.rating}
+                    </p>
                 </Card.Text>
+                </div>
               </Card.Body>
             </Card>
           </Col>
         ))}
       </Row>
     </Container>
+    <div className="space"></div>
+    </>
   );
 }
 

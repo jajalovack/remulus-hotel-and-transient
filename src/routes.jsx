@@ -3,6 +3,7 @@ import About from "./views/About/index";
 import HotelList from "./views/HotelList/index";
 import Login from "./views/LogIn/Login";
 import Register from "./views/Register/Register";
+import HotelDetails from "./views/HotelDetails/index";
 
 const routes = [
   {
@@ -16,14 +17,6 @@ const routes = [
   {
     path: "/book",
     element: <HotelList />,
-  },
-  {
-    path: "/login",
-    element: <Login />,
-  },
-  {
-    path: "/register",
-    element: <Register />,
   },
 ];
 
