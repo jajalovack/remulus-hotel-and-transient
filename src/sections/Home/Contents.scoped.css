@@ -26,18 +26,6 @@ section
     gap: 0;
 }
 
-.testimony
-{
-    background-color: white;
-    border: solid 1px #888888;
-    height: 300px;
-    min-width: 500px;
-    max-width: 500px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px #076472;
-    margin: 2rem;
-}
-
 .seeHotels
 {
     align-items: center;
