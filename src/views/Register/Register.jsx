@@ -34,7 +34,6 @@ const Register = () => {
   };
 
   const handleChangePassword = (e) => {
-    const { name, value } = e.target;
     setPassword(e.target.value);
   };
 
@@ -56,7 +55,7 @@ const Register = () => {
 
     // Check if password and confirmed password match
     if (formData.password !== confirmPassword) {
-      console.log("Password and confirmed password do not match");
+      alert("Password and confirmed password do not match");
       return;
     }
 

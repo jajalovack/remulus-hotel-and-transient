@@ -16,7 +16,7 @@ function HotelList() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/hotels");
+        const response = await axios.get(String(import.meta.env.VITE_API)+"/hotels");
         const hotels = response.data;
         console.log(hotels);
         setHotelData(hotels);
