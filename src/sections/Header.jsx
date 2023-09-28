@@ -39,10 +39,24 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto" activeKey={active} onSelect={(selected)=>setActive(selected)}>
+          <Nav className="me-auto" activeKey={active} onSelect={(selected)=>setActive(selected)}>
             <Nav.Link as={Link} to={`/`} eventKey={"/"}>Home</Nav.Link>
             <Nav.Link as={Link} to={`/About`} eventKey={"/About"}>About</Nav.Link>
             <Nav.Link as={Link} to={`/rooms`} eventKey={"/rooms"}>Book Rooms</Nav.Link>
+          </Nav>
+          <Nav className="logReg">
+            {isAuthenticated ? (
+              <Nav.Link onClick={logout}>Logout</Nav.Link>
+            ) : (
+              <>
+                <Nav.Link as={Link} to="/login">
+                  Login
+                </Nav.Link>
+                <Nav.Link as={Link} to="/register">
+                  Register
+                </Nav.Link>
+              </>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>

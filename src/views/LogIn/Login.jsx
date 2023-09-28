@@ -16,7 +16,7 @@ import {
   faEnvelope,
   faExclamationTriangle,
 } from "@fortawesome/free-solid-svg-icons";
-import "./Login.css";
+import "./Login.scoped.css";
 const Register = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");

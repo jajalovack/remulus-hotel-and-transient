@@ -9,7 +9,7 @@ import {
   faLock,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import "./register.css";
+import "./register.scoped.css";
 
 const Register = () => {
   const navigate = useNavigate();
