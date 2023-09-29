@@ -46,6 +46,10 @@ function HotelList() {
     {
       resetFilter=resetFilter.filter((x)=>x.branch==branchFilter);
     }
+    if (bookingTypeFilter!="both")
+    {
+      resetFilter=resetFilter.filter((x)=>x.bookingType==bookingTypeFilter);
+    }
     setSubdata(resetFilter);
   }
   ,[forceRender]);
@@ -69,9 +73,12 @@ function HotelList() {
     {
       setBranch(event.target.value);
     }
+    if (event.target.id=="booking")
+    {
+      setBookingTypeFilter(event.target.value)
+    }
     setFilters(newFilters);
     forcer(forceRender+1);
-    console.log(hotelData[0].isBooked)
   }
 
   return (
@@ -88,6 +95,12 @@ function HotelList() {
           <option value="Manila">Manila</option>
           <option value="Antipolo">Antipolo</option>
           <option value="Puerto Princesa">Puerto Princesa</option>
+        </select>&emsp;
+        <label htmlFor="booking">Booking Type:</label>&ensp;
+        <select id="booking" onChange={filter}>
+          <option value="both" selected>Show All</option>
+          <option value="Long-term">Long-term</option>
+          <option value="Transient">Transient</option>
         </select>
       </div>
     </div>
