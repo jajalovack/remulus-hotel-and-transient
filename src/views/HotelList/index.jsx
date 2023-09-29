@@ -48,7 +48,7 @@ function HotelList() {
     }
     if (bookingTypeFilter!="both")
     {
-      resetFilter=resetFilter.filter((x)=>x.bookingType==bookingTypeFilter);
+      resetFilter=resetFilter.filter((x)=>x.bookingType.includes(bookingTypeFilter));
     }
     setSubdata(resetFilter);
   }
