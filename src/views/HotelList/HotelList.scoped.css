@@ -1,3 +1,14 @@
+.filterContainer
+{
+  display: flex;
+  justify-content: center;
+}
+
+.filter
+{
+  width: 68%;
+}
+
 .custom-row {
   display: flex;
   flex-direction: row;

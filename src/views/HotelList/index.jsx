@@ -6,12 +6,18 @@ import {
   faBuilding,
   faStar,
   faMapMarker,
+  faFilter
 } from "@fortawesome/free-solid-svg-icons";
 import "./HotelList.scoped.css";
 import { Link } from "react-router-dom";
 
 function HotelList() {
   const [hotelData, setHotelData] = useState([]);
+  const [filteredHotel, setSubdata]= useState([]);
+  const [branchFilter, setBranch]=useState("none");
+  const [bookingTypeFilter, setBookingTypeFilter]=useState("both");
+  const [filterConditions, setFilters]=useState([true,(branch)=>branch==branchFilter,(bookingType)=>bookingType==bookingTypeFilter]);
+  const [forceRender,forcer]=useState(0);
   document.title="Remulus - See Rooms"
   useEffect(() => {
     const fetchData = async () => {
@@ -20,6 +26,7 @@ function HotelList() {
         const hotels = response.data;
         console.log(hotels);
         setHotelData(hotels);
+        setSubdata(hotels.filter((x)=>x.isBooked==false));
       } catch (error) {
         console.error(error);
       }
@@ -28,11 +35,57 @@ function HotelList() {
     fetchData();
   }, []);
 
+  useEffect(()=>{
+    console.log(filterConditions)
+    let resetFilter=hotelData;
+    if (filterConditions[0])
+    {
+      resetFilter=resetFilter.filter((x)=>x.isBooked!=filterConditions[0]);
+    }
+    setSubdata(resetFilter);
+  }
+  ,[forceRender]);
+
+  useEffect(()=>{
+    console.log(filteredHotel)
+  },[filteredHotel]);
+
+  function filter(event)
+  {
+    let newFilters=filterConditions;
+    let index=event.target.value;
+    for (let i=0;i<index;i++)
+    {
+      if (i==index-1)
+      {
+        newFilters[i]=!newFilters[i];
+      }
+    }
+    //console.log(filterConditions);
+    setFilters(newFilters);
+    forcer(forceRender+1);
+    console.log(hotelData[0].isBooked)
+  }
+
   return (
     <>
+    <div className="filterContainer">
+      <div className="filter">
+        <FontAwesomeIcon icon={faFilter}/>&ensp;
+        <b>Filters:</b>&emsp;
+        <input type="checkbox" id="hideBooked" value={1} defaultChecked onChange={filter}/> <label htmlFor="hideBooked">Hide Booked</label>&emsp;
+        <label htmlFor="branch">Branch:</label>&ensp;
+        <select id="branch">
+          <option value="Makati (Main)">Makati (Main)</option>
+          <option value="Manila">Manila</option>
+          <option value="Antipolo">Antipolo</option>
+          <option value="Puerto Princesa">Puerto Princesa</option>
+        </select>
+      </div>
+    </div>
     <Container>
       <Row className="custom-row">
-        {hotelData.map((hotel, index) => (
+        {filteredHotel.map((hotel, index) => (
           <Col key={`hotel-${index}`} xs={12} sm={6} md={4} lg={3}>
             <Card className="custom-card" as={Link} to={"/rooms/"+hotel.id}>
               <Card.Img variant="top" src={hotel.thumbnail} className="cardImage"/>
