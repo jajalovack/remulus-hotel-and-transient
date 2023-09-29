@@ -42,6 +42,10 @@ function HotelList() {
     {
       resetFilter=resetFilter.filter((x)=>x.isBooked!=filterConditions[0]);
     }
+    if (branchFilter!="none")
+    {
+      resetFilter=resetFilter.filter((x)=>x.branch==branchFilter);
+    }
     setSubdata(resetFilter);
   }
   ,[forceRender]);
@@ -61,7 +65,10 @@ function HotelList() {
         newFilters[i]=!newFilters[i];
       }
     }
-    //console.log(filterConditions);
+    if (event.target.id=="branch")
+    {
+      setBranch(event.target.value);
+    }
     setFilters(newFilters);
     forcer(forceRender+1);
     console.log(hotelData[0].isBooked)
@@ -75,7 +82,8 @@ function HotelList() {
         <b>Filters:</b>&emsp;
         <input type="checkbox" id="hideBooked" value={1} defaultChecked onChange={filter}/> <label htmlFor="hideBooked">Hide Booked</label>&emsp;
         <label htmlFor="branch">Branch:</label>&ensp;
-        <select id="branch">
+        <select id="branch" onChange={filter}>
+          <option value="none" selected>Show All</option>
           <option value="Makati (Main)">Makati (Main)</option>
           <option value="Manila">Manila</option>
           <option value="Antipolo">Antipolo</option>
